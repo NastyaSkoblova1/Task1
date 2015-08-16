@@ -1,0 +1,875 @@
+<!DOCTYPE html> 
+<html>  
+  <head>    
+    <meta charset="utf-8">  
+    <link href="styles/style.css" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="styles/style.css" rel="stylesheet" media="screen">
+    <title>Country</title> 
+  </head> 
+  <body>    
+  <div class="container">
+    <div class="information header">                  
+      <div class="information-cell flight">Рейс</div>  
+      <div class="information-cell location">Направление</div> 
+      <div class="information-cell aircraft">Авиакомпания</div> 
+      <div class="information-cell airline">Аэропорт</div>
+      <div class="information-cell time">Время</div>
+      <div class="information-cell flight-status">Статус</div>             
+    </div>     
+                
+    <div class="information">     
+      <a href="#1">                      
+        <div class="information-cell flight">BA 234</div> 
+        <div class="information-cell location">
+          <div class="station">Лондон</div> 
+          <div class="airport">Хитроу</div>
+        </div>  
+        <div class="information-cell aircraft">
+          <div class="aircraft-big">Airbus A321</div>    
+          <div class="aircraft-small">A321</div>
+        </div>  
+        <div class="information-cell airline">       
+          <div class="airline-name">BritishAir</div>     
+          <div class="airline-logo">
+            <img src="img/logo-british-airways.png" width="75px" height="20px" alt="BritishAir">
+          </div>      
+        </div>     
+        <div class="information-cell time">06:15</div>        
+        <div class="information-cell flight-status">
+          <div class="status flew">Вылетел</div> 
+        </div>      
+      </a>                         
+    </div>                
+    <a href="#x" class="overlay" id="1"></a>             
+    <div class="modals">             
+      <div class="flight">Рейс BA 234</div>  
+      <div class="location">Направление     
+        <div class="station">Лондон</div>  
+        <div class="airport">Хитроу</div> 
+      </div> 
+      <div class="aircraft">Тип самолёта Airbus A321</div>
+      <div class="airline">Авиакомпания     
+        <a href="http://www.britishairways.com/travel/home/public/ru_ru" target="_blank">
+          <span class="airline-name">BritishAir</span>     
+          <span class="airline-logo">
+            <img src="img/logo-british-airways.png" width="75px" height="20px" alt="BritishAir">
+          </span>      
+        </a> 
+      </div>       
+      <div class="flight-status">Статус 
+        <div class="status flew">Вылетел</div>
+      </div>   
+      <a class="close" href="#close"></a>              
+    </div>                                  
+                                                
+    <div class="information">  
+      <a href="#2">
+        <div class="information-cell flight">SU 1130</div>
+        <div class="information-cell location">
+          <div class="station">Сочи</div>  
+          <div class="airport">Адлер</div>
+        </div>
+        <div class="information-cell aircraft">
+          <div class="aircraft-big">Airbus A321</div>       
+          <div class="aircraft-small">A321</div>
+        </div>
+        <div class="information-cell airline"> 
+          <div class="airline-name">Аэрофлот</div>        
+          <div class="airline-logo">
+            <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">
+          </div>     
+        </div>  
+        <div class="information-cell time">07:39</div>
+        <div class="information-cell flight-status"> 
+          <div class="status registration">Регистрация</div>    
+        </div>
+      </a>      
+    </div>              
+    <a href="#x" class="overlay" id="2"></a>      
+    <div class="modals">      
+      <div class="flight">Рейс SU 1130</div> 
+      <div class="location">Направление   
+        <div class="station">Сочи</div>  
+        <div class="airport">Адлер</div> 
+      </div>    
+      <div class="aircraft">Тип самолёта Airbus A321</div>
+      <div class="airline">Авиакомпания 
+        <a href="http://www.aeroflot.ru/cms/" target="_blank">
+          <span class="airline-name">Аэрофлот</span>        
+          <span class="airline-logo">
+            <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">
+          </span>  
+        </a>      
+      </div> 
+      <div class="flight-status">Статус  
+        <div class="status registration">Регистрация</div>    
+      </div> 
+      <a class="close" href="#close"></a>
+    </div>  
+            
+    <div class="information"> 
+      <a href="#3">
+        <div class="information-cell flight">SU 2100</div>
+        <div class="information-cell location">
+          <div class="station">Рига</div> 
+          <div class="airport">Рига</div>
+        </div>
+        <div class="information-cell aircraft">
+          <div class="aircraft-big">Airbus A320</div>         
+          <div class="aircraft-small">A320</div>
+        </div>
+        <div class="information-cell airline">    
+          <div class="airline-name">Аэрофлот</div>   
+          <div class="airline-logo">
+            <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">
+          </div>            
+        </div>     
+        <div class="information-cell time">08:56</div>
+        <div class="information-cell flight-status">
+          <div class="status registration">Регистрация</div> 
+        </div>
+      </a>    
+    </div>         
+    <a href="#x" class="overlay" id="3"></a>        
+    <div class="modals">      
+      <div class="flight">Рейс SU 2100</div>  
+      <div class="location">Направление     
+        <div class="station">Рига</div> 
+        <div class="airport">Рига</div>  
+      </div>     
+      <div class="aircraft">Тип самолёта Airbus A320</div>
+      <div class="airline">Авиакомпания     
+        <a href="http://www.aeroflot.ru/cms/" target="_blank">
+          <span class="airline-name">Аэрофлот</span>   
+          <span class="airline-logo">
+            <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">
+          </span>    
+        </a>             
+      </div>    
+      <div class="flight-status">Статус
+        <div class="status registration">Регистрация</div> 
+      </div> 
+      <a class="close" href="#close"></a>    
+    </div>           
+            
+    <div class="information"> 
+      <a href="#4">
+        <div class="information-cell flight">SU 3704</div>
+        <div class="information-cell location">
+          <div class="station">Таллин</div> 
+          <div class="airport">Юлемисте</div>
+        </div>
+        <div class="information-cell aircraft">
+          <div class="aircraft-big">Canadair Regional Jet 900</div>         
+          <div class="aircraft-small">CRJ900</div>
+        </div>
+        <div class="information-cell airline">       
+          <div class="airline-name">Аэрофлот</div>                
+          <div class="airline-logo">
+            <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">
+          </div>                
+        </div>     
+        <div class="information-cell time">09:56</div> 
+        <div class="information-cell flight-status">
+          <div class="status stop-boarding">Посадка закончена</div> 
+        </div>    
+      </a>     
+    </div>       
+    <a href="#x" class="overlay" id="4"></a>   
+    <div class="modals">     
+      <div class="flight">Рейс SU 3704</div>     
+      <div class="location">Направление    
+        <div class="station">Таллин</div> 
+        <div class="airport">Юлемисте</div>  
+      </div>      
+      <div class="aircraft">Тип самолёта Canadair Regional Jet 900</div>
+      <div class="airline">Авиакомпания        
+        <a href="http://www.aeroflot.ru/cms/" target="_blank">
+          <span class="airline-name">Аэрофлот</span>                
+          <span class="airline-logo">
+            <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">
+          </span>  
+        </a>                 
+      </div>     
+      <div class="flight-status">Статус 
+        <div class="status stop-boarding">Посадка закончена</div> 
+      </div> 
+      <a class="close" href="#close"></a>     
+    </div>                  
+            
+    <div class="information"> 
+      <a href="5">
+        <div class="information-cell flight">SU 1010</div>
+        <div class="information-cell location">
+          <div class="station">Калининград</div> 
+          <div class="airport">Храброво</div>
+        </div>
+        <div class="information-cell aircraft">
+          <div class="aircraft-big">Airbus A320</div>         
+          <div class="aircraft-small">A320</div>
+        </div>
+        <div class="information-cell airline">      
+          <div class="airline-name">Аэрофлот</div>            
+          <div class="airline-logo">
+            <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">
+          </div>        
+        </div>     
+        <div class="information-cell time">10:20</div>
+        <div class="information-cell flight-status">
+          <div class="status wait-boarding">Ожидание посадки</div> 
+        </div>  
+      </a>           
+    </div>         
+    <a href="#x" class="overlay" id="5"></a>         
+    <div class="modals">          
+      <div class="flight">Рейс SU 1010</div>  
+      <div class="location">Направление    
+        <div class="station">Калининград</div> 
+        <div class="airport">Храброво</div>   
+      </div>     
+      <div class="aircraft">Тип самолёта Airbus A320</div>
+      <div class="airline">Авиакомпания       
+        <a href="http://www.aeroflot.ru/cms/" target="_blank">
+          <span class="airline-name">Аэрофлот</span>            
+          <span class="airline-logo">
+            <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">
+          </span>
+        </a>           
+      </div>    
+      <div class="flight-status">Статус 
+        <div class="status wait-boarding">Ожидание посадки</div> 
+      </div> 
+      <a class="close" href="#close"></a>    
+    </div>            
+            
+    <div class="information"> 
+      <a href="#6">
+        <div class="information-cell flight">GA 9405</div>
+        <div class="information-cell location">
+          <div class="station">Токио</div>     
+          <div class="airport">Нарита</div>
+        </div>
+        <div class="information-cell aircraft">
+          <div class="aircraft-big">Airbus A330-300</div>          
+          <div class="aircraft-small">A330</div>
+        </div>
+        <div class="information-cell airline">
+          <div class="airline-name">Garuda</div>     
+          <div class="airline-logo">
+            <img src="img/logo-garuda-indonesia.jpg" width="45px" height="20px" alt="Garuda">
+          </div>       
+        </div>     
+        <div class="information-cell time">11:35</div>
+        <div class="information-cell flight-status">
+          <div class="status delay">Задерживается до 10:20</div> 
+        </div>    
+      </a>       
+    </div>             
+    <a href="#x" class="overlay" id="6"></a>   
+    <div class="modals">       
+      <div class="flight">Рейс GA 9405</div>    
+      <div class="location">Направление   
+        <div class="station">Токио</div>     
+        <div class="airport">Нарита</div> 
+      </div>        
+      <div class="aircraft">Тип самолёта Airbus A330-300</div>
+      <div class="airline">Авиакомпания 
+        <a href="https://www.garuda-indonesia.com/other-countries/en/index.page" target="_blank">
+          <span class="airline-name">Garuda</span>     
+          <span class="airline-logo">
+            <img src="img/logo-garuda-indonesia.jpg" width="45px" height="20px" alt="Garuda">
+          </span>  
+        </a>            
+     </div>    
+     <div class="flight-status">Статус 
+        <div class="status delay">Задерживается до 10:20</div> 
+     </div> 
+     <a class="close" href="#close"></a>    
+    </div>                
+            
+    <div class="information"> 
+      <a href="#7">
+        <div class="information-cell flight">SU 2132</div>
+        <div class="information-cell location">
+          <div class="station">Стамбул</div>    
+          <div class="airport">Ататюрк</div>
+        </div>
+        <div class="information-cell aircraft">
+          <div class="aircraft-big">Airbus A320</div>          
+          <div class="aircraft-small">A320</div>
+        </div>
+        <div class="information-cell airline">
+          <div class="airline-name">Аэрофлот</div>   
+          <div class="airline-logo">   
+            <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот"> 
+          </div>   
+        </div>  
+        <div class="information-cell time">12:10</div>
+        <div class="information-cell flight-status">
+          <div class="status flew">Вылетел</div> 
+        </div>         
+      </a>       
+    </div>             
+    <a href="#x" class="overlay" id="7"></a>        
+      <div class="modals">          
+        <div class="flight">Рейс SU 2132</div>    
+        <div class="location">Направление    
+          <div class="station">Стамбул</div>    
+          <div class="airport">Ататюрк</div>  
+        </div>           
+        <div class="aircraft">Тип самолёта Airbus A320</div>
+        <div class="airline">Авиакомпания 
+          <a href="http://www.aeroflot.ru/cms/" target="_blank">
+            <span class="airline-name">Аэрофлот</span>   
+            <span class="airline-logo">   
+              <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот"> 
+            </span> 
+          </a>     
+        </div> 
+        <div class="flight-status">Статус 
+          <div class="status flew">Вылетел</div> 
+        </div> 
+        <a class="close" href="#close"></a>           
+      </div>         
+            
+      <div class="information"> 
+        <a href="#8">
+          <div class="information-cell flight">SU 2474</div>
+          <div class="information-cell location">
+            <div class="station">Ницца</div>    
+            <div class="airport">Кот Д'Азур</div>
+          </div>
+          <div class="information-cell aircraft">
+            <div class="aircraft-big">Airbus A320</div>           
+            <div class="aircraft-small">A320</div>
+          </div>
+          <div class="information-cell airline">
+            <div class="airline-name">Аэрофлот</div>
+            <div class="airline-logo">    
+              <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">       
+            </div>         
+          </div>      
+          <div class="information-cell time">13:15</div>
+          <div class="information-cell flight-status">
+            <div class="status registration">Регистрация</div> 
+          </div>            
+        </a>     
+      </div>                   
+      <a href="#x" class="overlay" id="8"></a>             
+        <div class="modals">      
+          <div class="flight">Рейс SU 2474</div>  
+          <div class="location">Направление    
+            <div class="station">Ницца</div>    
+            <div class="airport">Кот Д'Азур</div>    
+          </div>     
+          <div class="aircraft">Тип самолёта Airbus A320</div>
+          <div class="airline">Авиакомпания 
+            <span class="airline-name">Аэрофлот</span>
+            <span class="airline-logo">    
+              <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">       
+            </span>           
+          </div>     
+          <div class="flight-status">Статус 
+            <div class="status registration">Регистрация</div> 
+          </div>          
+        <a class="close" href="#close"></a>     
+      </div>        
+            
+      <div class="information"> 
+        <a href="#9">
+          <div class="information-cell flight">AZ 549</div>
+          <div class="information-cell location">
+            <div class="station">Рим</div>     
+            <div class="airport">Фьюмичино</div>
+          </div>
+          <div class="information-cell aircraft">
+            <div class="aircraft-big">Airbus A321</div>         
+            <div class="aircraft-small">A321</div>
+          </div>
+          <div class="information-cell airline">
+            <div class="airline-name">Alitalia</div>     
+            <div class="airline-logo">     
+              <img src="img/alitalia_logo.png" width="39px" height="20px" alt="Alitalia">   
+            </div>       
+          </div>       
+          <div class="information-cell time">14:35</div> 
+          <div class="information-cell flight-status">
+            <div class="status flew">Вылетел</div> 
+          </div>   
+        </a>     
+      </div>      
+      <a href="#x" class="overlay" id="9"></a>       
+        <div class="modals">         
+           <div class="flight">Рейс AZ 549</div>    
+           <div class="location">Направление    
+              <div class="station">Рим</div>     
+              <div class="airport">Фьюмичино</div>  
+           </div>       
+           <div class="aircraft">Тип самолёта Airbus A321</div>
+           <div class="airline">Авиакомпания 
+               <a href="http://www.alitalia.com" target="_blank">
+                  <span class="airline-name">Alitalia</span>     
+                  <span class="airline-logo">     
+                    <img src="img/alitalia_logo.png" width="39px" height="20px" alt="Alitalia">   
+                  </span>      
+               </a>     
+           </div>       
+           <div class="flight-status">Статус 
+              <div class="status flew">Вылетел</div> 
+           </div>   
+           <a class="close" href="#close"></a>      
+         </div>          
+            
+         <div class="information"> 
+            <a href="#10">
+              <div class="information-cell flight">SU 202</div>
+              <div class="information-cell location">
+                 <div class="station">Пекин</div>      
+                 <div class="airport">Пекин</div>
+              </div>
+              <div class="information-cell aircraft">
+                  <div class="aircraft-big">Airbus A330-300</div>          
+                  <div class="aircraft-small">A330</div>
+              </div>
+              <div class="information-cell airline">
+                  <div class="airline-name">Аэрофлот</div>       
+                  <div class="airline-logo">   
+                    <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">        
+                  </div>  
+              </div>      
+              <div class="information-cell time">15:39</div> 
+              <div class="information-cell flight-status">
+                 <div class="status wait-boarding">Ожидание посадки</div> 
+              </div> 
+            </a>    
+          </div>   
+          <a href="#x" class="overlay" id="10"></a>        
+            <div class="modals">       
+              <div class="flight">Рейс SU 202</div>      
+              <div class="location">Направление    
+                <div class="station">Пекин</div>      
+                <div class="airport">Пекин</div>  
+              </div>           
+              <div class="aircraft">Тип самолёта Airbus A330-300</div>
+              <div class="airline">Авиакомпания 
+                <a href="http://www.aeroflot.ru/cms/" target="_blank">
+                   <span class="airline-name">Аэрофлот</span>       
+                   <span class="airline-logo">   
+                     <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">        
+                   </span>  
+                </a>       
+              </div>      
+              <div class="flight-status">Статус 
+                <div class="status wait-boarding">Ожидание посадки</div> 
+              </div> 
+               <a class="close" href="#close"></a>     
+            </div>       
+            
+            <div class="information"> 
+               <a href="#11">
+                <div class="information-cell flight">LX 1327</div>
+                <div class="information-cell location">
+                    <div class="station">Цюрих</div>     
+                    <div class="airport">Цюрих</div>
+                </div>
+                <div class="information-cell aircraft">
+                  <div class="aircraft-big">Airbus A320</div>          
+                  <div class="aircraft-small">A320</div>
+                </div>
+                <div class="information-cell airline">
+                      <div class="airline-name">SwissAir</div>             
+                      <div class="airline-logo">   
+                        <img src="img/logo-swissair.png" width="45px" height="20px" alt="SwissAir">       
+                      </div>            
+                </div>  
+                <div class="information-cell time">16:59</div>
+                <div class="information-cell flight-status">
+                    <div class="status cancel">Отменён</div> 
+                </div> 
+                </a>     
+            </div>       
+            <a href="#x" class="overlay" id="11"></a>           
+             <div class="modals">         
+              <div class="flight">Рейс LX 1327</div>       
+              <div class="location">Направление 
+              <div class="station">Цюрих</div>     
+              <div class="airport">Цюрих</div>  
+                 </div>       
+                <div class="aircraft">Тип самолёта Airbus A320</div>
+                <div class="airline">Авиакомпания 
+                    <a href="http://www.swiss.com/ru/ru" target="_blank">
+                      <span class="airline-name">SwissAir</span>             
+                      <span class="airline-logo">   
+                        <img src="img/logo-swissair.png" width="45px" height="20px" alt="SwissAir">       
+                      </span>      
+                    </a>         
+                </div> 
+                <div class="flight-status">Статус 
+                    <div class="status cancel">Отменён</div> 
+                </div>      
+                <a class="close" href="#close"></a>       
+            </div>      
+            
+            <div class="information"> 
+               <a href="#12">
+                <div class="information-cell flight">UX 3286</div>
+                <div class="information-cell location">
+                    <div class="station">Мадрид</div>     
+                    <div class="airport">Барахас</div>
+                </div>
+                <div class="information-cell aircraft">
+                  <div class="aircraft-big">Airbus A321</div>         
+                  <div class="aircraft-small">A321</div>
+                </div>
+                <div class="information-cell airline">
+                      <div class="airline-name">Air Europa</div>       
+                      <div class="airline-logo">    
+                        <img src="img/logo_aireuropa.png" width="60px" height="20px" alt="Air Europa">       
+                      </div>       
+                </div>      
+                <div class="information-cell time">10:10</div>
+                <div class="information-cell flight-status">
+                    <div class="status flew">Вылетел</div> 
+                </div>    
+                </a>     
+            </div>   
+            <a href="#x" class="overlay" id="12"></a>    
+             <div class="modals">        
+              <div class="flight">Рейс UX 3286</div>   
+              <div class="location">Направление    
+              <div class="station">Мадрид</div>     
+              <div class="airport">Барахас</div>  
+                 </div>         
+                <div class="aircraft">Тип самолёта Airbus A321</div>
+                <div class="airline">Авиакомпания 
+                    <a href="https://www.aireuropa.com/es/vuelos" target="_blank">
+                      <span class="airline-name">Air Europa</span>       
+                      <span class="airline-logo">    
+                        <img src="img/logo_aireuropa.png" width="60px" height="20px" alt="Air Europa">       
+                      </span>   
+                    </a>          
+                </div>     
+                <div class="flight-status">Статус 
+                    <div class="status flew">Вылетел</div> 
+                </div> 
+                <a class="close" href="#close"></a>     
+            </div>                  
+            
+            <div class="information"> 
+               <a href="#13">
+                <div class="information-cell flight">AF 1845</div>
+                <div class="information-cell location">
+                    <div class="station">Париж</div>       
+                    <div class="airport">Шарль де Голль</div>
+                </div>
+                <div class="information-cell aircraft">
+                  <div class="aircraft-big">Airbus A319</div>           
+                  <div class="aircraft-small">A319</div>
+                </div>
+                <div class="information-cell airline">
+                      <div class="airline-name">Air France</div>     
+                      <div class="airline-logo">   
+                        <img src="img/Air-France-Logo.png" width="60px" height="20px" alt="Air France">     
+                      </div>     
+                </div>      
+                <div class="information-cell time">17:20</div>
+                <div class="information-cell flight-status">
+                    <div class="status registration">Регистрация</div> 
+                </div> 
+                </a>    
+            </div>               
+            <a href="#x" class="overlay" id="13"></a>   
+            <div class="modals">      
+               <div class="flight">Рейс AF 1845</div> 
+               <div class="location">Направление      
+               <div class="station">Париж</div>       
+               <div class="airport">Шарль де Голль</div>    
+                </div>      
+                <div class="aircraft">Тип самолёта Airbus A319</div>
+                <div class="airline">Авиакомпания 
+                    <a href="http://www.airfrance.ru/cgi-bin/AF/RU/ru/common/home/home/HomePageAction.do" target="_blank">
+                      <span class="airline-name">Air France</span>     
+                      <span class="airline-logo">   
+                        <img src="img/Air-France-Logo.png" width="60px" height="20px" alt="Air France">     
+                      </span>     
+                    </a>              
+                </div>     
+                <div class="flight-status">Статус 
+                    <div class="status registration">Регистрация</div> 
+                </div>    
+                <a class="close" href="#close"></a>     
+            </div>          
+            
+            <div class="information"> 
+               <a href="#14">
+                <div class="information-cell flight">SU 2184</div>
+                <div class="information-cell location">
+                    <div class="station">Вена</div>      
+                    <div class="airport">Швехат</div>
+                </div>
+                <div class="information-cell aircraft">
+                  <div class="aircraft-big">Airbus A320</div>          
+                  <div class="aircraft-small">A320</div>
+                </div>
+                <div class="information-cell airline">
+                      <div class="airline-name">Аэрофлот</div>          
+                      <div class="airline-logo">     
+                        <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">         
+                      </div>         
+                </div>      
+                <div class="information-cell time">18:10</div>
+                <div class="information-cell flight-status">
+                    <div class="status stop-boarding">Посадка закончена</div> 
+                </div>     
+                </a>    
+            </div>                   
+            <a href="#x" class="overlay" id="14"></a>     
+            <div class="modals">           
+               <div class="flight">Рейс SU 2184</div>   
+               <div class="location">Направление    
+               <div class="station">Вена</div>      
+               <div class="airport">Швехат</div>   
+                </div>      
+                <div class="aircraft">Тип самолёта Airbus A320</div>
+                <div class="airline">Авиакомпания 
+                    <a href="http://www.aeroflot.ru/cms/" target="_blank">
+                      <span class="airline-name">Аэрофлот</span>          
+                      <span class="airline-logo">     
+                        <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">         
+                      </span>        
+                    </a>        
+                </div>     
+                <div class="flight-status">Статус 
+                    <div class="status stop-boarding">Посадка закончена</div> 
+                </div>    
+                <a class="close" href="#close"></a>      
+            </div>       
+            
+            <div class="information"> 
+               <a href="#15">
+                <div class="information-cell flight">SU 2104</div>
+                <div class="information-cell location">
+                    <div class="station">Вильнюс</div>    
+                    <div class="airport">Вильнюс</div>
+                </div>
+                <div class="information-cell aircraft">
+                  <div class="aircraft-big">Sukhoi superjet 100</div>        
+                  <div class="aircraft-small">SS100</div>
+                </div>
+                <div class="information-cell airline">
+                      <div class="airline-name">Аэрофлот</div>           
+                      <div class="airline-logo">    
+                        <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">          
+                      </div>             
+                </div>  
+                <div class="information-cell time">19:21</div>    
+                <div class="information-cell flight-status">
+                    <div class="status wait-boarding">Ожидание посадки</div> 
+                </div>   
+                </a>      
+            </div>          
+            <a href="#x" class="overlay" id="15"></a>        
+           <div class="modals">         
+               <div class="flight">Рейс SU 2104</div>      
+               <div class="location">Направление 
+               <div class="station">Вильнюс</div>    
+               <div class="airport">Вильнюс</div>    
+               </div>      
+                <div class="aircraft">Тип самолёта Sukhoi superjet 100</div>
+                <div class="airline">Авиакомпания 
+                    <a href="http://www.aeroflot.ru/cms/" target="_blank">
+                      <span class="airline-name">Аэрофлот</span>           
+                      <span class="airline-logo">    
+                        <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">          
+                      </span>            
+                    </a>       
+                </div>     
+                <div class="flight-status">Статус 
+                    <div class="status wait-boarding">Ожидание посадки</div> 
+                </div> 
+                <a  class="close" href="#close"></a>       
+            </div>       
+            
+            <div class="information"> 
+               <a href="#16">
+                <div class="information-cell flight">SN 2836</div>
+                <div class="information-cell location">
+                    <div class="station">Брюссель</div>     
+                    <div class="airport">Брюссель</div>
+                </div>
+                <div class="information-cell aircraft">
+                  <div class="aircraft-big">Airbus A319</div>           
+                  <div class="aircraft-small">A319</div>
+                </div>
+                <div class="information-cell airline">
+                      <div class="airline-name">Brussels</div>           
+                      <div class="airline-logo">   
+                        <img src="img/sn-brussels.png" width="45px" height="20px" alt="Brussels">          
+                      </div>             
+                </div>         
+                <div class="information-cell time">20:10</div>     
+                <div class="information-cell flight-status">
+                    <div class="status flew">Вылетел</div> 
+                </div>      
+                </a>     
+            </div>              
+            <a href="#x" class="overlay" id="16"></a>      
+            <div class="modals">        
+               <div class="flight">Рейс SN 2836</div>      
+               <div class="location">Направление 
+               <div class="station">Брюссель</div>     
+               <div class="airport">Брюссель</div> 
+                </div>      
+                <div class="aircraft">Тип самолёта Airbus A319</div>
+                <div class="airline">Авиакомпания 
+                    <a href="http://www.brusselsairlines.com/en-be/" target="_blank">
+                      <span class="airline-name">Brussels</span>           
+                      <span class="airline-logo">   
+                        <img src="img/sn-brussels.png" width="45px" height="20px" alt="Brussels">          
+                      </span>            
+                    </a>     
+                </div>      
+                <div class="flight-status">Статус 
+                    <div class="status flew">Вылетел</div> 
+                </div> 
+                <a class="close" href="#close"></a>      
+            </div>      
+            
+            <div class="information">    
+               <a href="#17">
+                <div class="information-cell flight">UN 365</div>
+                <div class="information-cell location">
+                    <div class="station">Лиссабон</div>     
+                    <div class="airport">Лиссабон</div>
+                </div>
+                <div class="information-cell aircraft">
+                  <div class="aircraft-big">Airbus A319</div>           
+                  <div class="aircraft-small">A319</div>
+                </div>
+                <div class="information-cell airline">
+                      <div class="airline-name">Трансаэро</div>         
+                      <div class="airline-logo">   
+                        <img src="img/logo-transaero.jpg" width="75px" height="20px" alt="Трансаэро">           
+                      </div>          
+                </div>     
+                <div class="information-cell time">21:59</div> 
+                <div class="information-cell flight-status">
+                    <div class="status registration">Регистрация</div> 
+                </div>   
+                </a>     
+            </div>          
+            <a href="#x" class="overlay" id="17"></a>       
+              <div class="modals">       
+              <div class="flight">Рейс UN 365</div>   
+              <div class="location">Направление   
+              <div class="station">Лиссабон</div>     
+              <div class="airport">Лиссабон</div> 
+                  </div>    
+                <div class="aircraft">Тип самолёта Airbus A319</div>
+                <div class="airline">Авиакомпания 
+                    <a href="http://www.transaero.ru" target="_blank">
+                      <span class="airline-name">Трансаэро</span>         
+                      <span class="airline-logo">   
+                        <img src="img/logo-transaero.jpg" width="75px" height="20px" alt="Трансаэро">           
+                      </span>          
+                    </a>      
+                </div>     
+                <div class="flight-status">Статус 
+                    <div class="status registration">Регистрация</div> 
+                </div> 
+                <a class="close" href="#close">
+            </div>         
+            
+            <div class="information"> 
+               <a href="#18">
+                <div class="information-cell flight">CZ 7202</div>
+                <div class="information-cell location">
+                    <div class="station">Гуанчжоу</div>    
+                    <div class="airport">Байюн</div>      
+                </div>
+                <div class="information-cell aircraft">
+                  <div class="aircraft-big">Airbus A330-300</div>          
+                  <div class="aircraft-small">A330</div>
+                </div>
+                <div class="information-cell airline">
+                      <div class="airline-name">China Southern</div>            
+                      <div class="airline-logo">    
+                        <img src="img/logo-china-southern.png" width="85px" height="20px" alt="China Southern">      
+                      </div>              
+                </div>      
+                <div class="information-cell time">22:10</div>
+                <div class="information-cell flight-status">
+                    <div class="status stop-boarding">Посадка закончена</div> 
+                </div> 
+                </a>     
+            </div>                   
+            <a href="#x" class="overlay" id="18"></a>       
+             <div class="modals">             
+               <div class="flight">Рейс CZ 7202</div>   
+               <div class="location">Направление    
+               <div class="station">Гуанчжоу</div>    
+               <div class="airport">Байюн</div>   
+                 </div>              
+                <div class="aircraft">Тип самолёта Airbus A330-300</div>
+                <div class="airline">Авиакомпания 
+                    <a href="http://www.csair.com/en/" target="_blank">
+                      <span class="airline-name">China Southern</span>            
+                      <span class="airline-logo">    
+                        <img src="img/logo-china-southern.png" width="85px" height="20px" alt="China Southern">      
+                      </span>              
+                    </a>      
+                </div>     
+                <div class="flight-status">Статус 
+                    <div class="status stop-boarding">Посадка закончена</div> 
+                </div> 
+                <a class="close" href="#close"></a>    
+            </div>      
+             
+            <div class="information"> 
+               <a href="#19">
+                <div class="information-cell flight">SU 1702</div>
+                <div class="information-cell location">
+                    <div class="station">Владивосток</div>     
+                    <div class="airport">Кневичи</div>   
+                </div>
+                <div class="information-cell aircraft">
+                  <div class="aircraft-big">Airbus A330-300</div>          
+                  <div class="aircraft-small">A330</div>
+                </div>
+                <div class="information-cell airline">
+                      <div class="airline-name">Аэрофлот</div>         
+                      <div class="airline-logo">  
+                        <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">     
+                      </div>          
+                </div>    
+                <div class="information-cell time">22:35</div>     
+                <div class="information-cell flight-status">
+                    <div class="status registration">Регистрация</div> 
+                </div>              
+                </a>    
+            </div>    
+            <a href="#x" class="overlay" id="19"></a>      
+            <div class="modals">        
+               <div class="flight">Рейс SU 1702</div>   
+               <div class="location">Направление    
+               <div class="station">Владивосток</div>     
+               <div class="airport">Кневичи</div>    
+                </div>    
+                <div class="aircraft">Тип самолёта Airbus A330-300</div> 
+                <div class="airline">Авиакомпания 
+                    <a href="http://www.aeroflot.ru/cms/" target="_blank">
+                      <span class="airline-name">Аэрофлот</span>         
+                      <span class="airline-span">  
+                        <img src="img/logo-aeroflot.png" width="75px" height="20px" alt="Аэрофлот">     
+                      </span>          
+                    </a>          
+                </div>        
+                <div class="flight-status">Статус 
+                    <div class="status registration">Регистрация</div> 
+                </div>       
+                <a class="close" href="#close"></a>         
+            </div>                                      
+    </div>      
+  </body>
+</html>
